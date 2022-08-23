@@ -171,12 +171,13 @@ body {
     display: none;
   }
   .bg-mobile {
-    display: flex;
+    display: inline-flex;
     width: inherit;
     background-image: url(./images/bg-mobile.png);
-    position: fixed;
-    flex-direction: column;
+    position: absolute;
     height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
     background-size: cover;
   }
 
